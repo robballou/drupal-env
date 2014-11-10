@@ -1,0 +1,14 @@
+---
+  # Provider configuration
+  # ----------------------
+  # Currently supported: vagrant
+  provider: vagrant
+
+  # Provider-specific configuration
+  # -------------------------------
+  # Use this structure to configure a provider, this is an example for use with
+  # the vagrant provider.
+  vagrant:
+    # You can provide a file path, URL, or git repo. If nothing is specified,
+    # a default vagrant init will be used.
+    # vagrantfile: git@bitbucket.org:repo.git

@@ -2,13 +2,14 @@
   "name": "drupal-env",
   "version": "0.0.0",
   "description": "Create and rebuild Drupal environments",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "drupal"
   ],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "js-yaml": "^3.2.3",
+    "minimist": "^1.1.0"
+  }
 }
